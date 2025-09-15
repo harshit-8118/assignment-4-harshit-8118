@@ -12,7 +12,9 @@
 
 1. **Data Prep**
 
-   * Load dataset, check imbalance, stratified split.
+   * Load dataset, 
+   * check imbalance,
+   * stratified split.
 
 2. **Baseline**
 
@@ -23,11 +25,12 @@
 
    * Advantage over SMOTE: distribution-based.
    * Choose $K$ via AIC/BIC.
+   * Fit GMM to minority class.
    * Oversampling + GMM + CBU hybrid.
 
 4. **Comparison**
 
-   * Methods: Baseline, SMOTE, CBO, CBU, GMM-OS, GMM+CBU.
+   * Methods: Baseline, SMOTE, GMM-Full, GMM+CBU.
    * Results: bar charts, ROC/PR curves (full + zoomed).
 
 5. **Conclusion**
