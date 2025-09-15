@@ -47,8 +47,6 @@ Folder Structure:
 |   |_gmm_full_lr.pkl
 |   |_gmm_cbu_lr.pkl
 |   |_smote_model.pkl
-|   |_cbo_model.pkl
-|   |_cbu_model.pkl
 |_da25s004_A4.ipynb  // code file
 |_model_summary.csv  // summary of evaluation metrices
 |_README.md
